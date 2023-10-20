@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -15,12 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.letsRide",
+      "config": {
+        "googleMapsApiKey":"AIzaSyCLNzv_BKb3B9hu7qH6lyjwogtkLdhprEI"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.letsRide",
+      "config" :{
+        "googleMaps" : {
+          "apikey":"AIzaSyCLNzv_BKb3B9hu7qH6lyjwogtkLdhprEI"
+        },
+
+        "permissons":["ACCESS_CORS_LOCATION", "ACCESS_FINE_LOCATION", "FOREGROUND_SERVICE"]
       }
     },
     "web": {
