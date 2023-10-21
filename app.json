@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "letsRide",
@@ -18,7 +19,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.letsRide",
       "config": {
-        "googleMapsApiKey":"AIzaSyCLNzv_BKb3B9hu7qH6lyjwogtkLdhprEI"
+        "googleMapsApiKey": "@env API_KEY"
       }
     },
     "android": {
@@ -29,7 +30,7 @@
       "package": "com.letsRide",
       "config" :{
         "googleMaps" : {
-          "apikey":"AIzaSyCLNzv_BKb3B9hu7qH6lyjwogtkLdhprEI"
+          "apikey":"@env API_KEY"
         },
 
         "permissons":["ACCESS_CORS_LOCATION", "ACCESS_FINE_LOCATION", "FOREGROUND_SERVICE"]
