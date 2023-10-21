@@ -10,7 +10,7 @@ const RequestScreen = () => {
    
     <View style={tw`mt-8 ml-7 mr-7 flex-1`}>
       <View style={tw`flex-row`}>
-      <View style={tw` w-8 ml-5 `}>
+      <View style={tw` w-8 ml-5`}>
         <Icon
             name='arrow-back'
             type='materialicons'
